@@ -3,7 +3,7 @@
 	import Separator from '$lib/components/ui/separator/separator.svelte';
 </script>
 
-<div class="flex flex-col gap-y-10">
+<div class="flex flex-col gap-y-10 py-10">
 	<Separator />
 	<div class="flex flex-row items-center justify-center space-x-10">
 		<b>© 2024 Terri Corp.</b>
