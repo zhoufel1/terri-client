@@ -11,11 +11,11 @@
 	style="background-image: url('https://static.vecteezy.com/system/resources/previews/027/537/533/large_2x/snowshoe-cat-sitting-on-white-background-ai-generative-free-photo.jpeg');"
 >
 	<div class="flex flex-col items-center space-y-12">
-		<p class="text-2xl font-semibold">Toronto's Referral Market</p>
+		<p class="text-2xl font-semibold">Canada's Referral Market</p>
 		<p class="text-6xl font-bold"><u>Buy & Sell</u> Referrals For Leading Firms</p>
 		<p>
-			Secure an edge by connecting and collaborating with existing employees in roles you're
-			interested in.
+			Secure an edge by connecting and collaborating with industry insiders 
+			
 		</p>
 		<Button
 			><Icon icon="fluent-mdl2:market" class="mr-3 h-5 w-5" />
