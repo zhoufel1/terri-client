@@ -2,6 +2,8 @@
 
 Web Client for Terri
 
+![alt text](assets/image.png)
+
 ## Building
 
 ```bash
