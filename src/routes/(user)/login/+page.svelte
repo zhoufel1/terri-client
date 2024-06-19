@@ -1,6 +1,8 @@
 <script>
 	import Button from '$lib/components/ui/button/button.svelte';
+	import Checkbox from '$lib/components/ui/checkbox/checkbox.svelte';
 	import Input from '$lib/components/ui/input/input.svelte';
+	import Label from '$lib/components/ui/label/label.svelte';
 	import Icon from '@iconify/svelte';
 </script>
 
@@ -12,6 +14,10 @@
 	<div class="flex w-96 flex-col items-center space-y-2 pt-5">
 		<Input type="email" placeholder="Email" />
 		<Input type="password" placeholder="Password" />
+		<div class="flex w-full items-center space-x-2">
+			<Checkbox />
+			<Label for="remember-me" class="my-3 text-xs">Remember me</Label>
+		</div>
 		<Button class="w-full">Login</Button>
 	</div>
 	<div class="inline-flex w-full items-center justify-center">
