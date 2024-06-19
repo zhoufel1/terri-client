@@ -1,15 +1,18 @@
 <script>
-	import Button from "$lib/components/ui/button/button.svelte";
-
+	import Button from '$lib/components/ui/button/button.svelte';
 </script>
+
 <nav class="navbar navbar-light">
-	<div class="flex flex-row justify-center items-center gap-60 py-10">
+	<div class="flex flex-row items-center justify-center gap-60 py-10">
 		<h1 class="text-3xl font-semibold">TERRI</h1>
 		<div class="flex space-x-20">
-			<h1 class="text-xl font-semibold">Marketplace</h1>
-			<h1 class="text-xl font-semibold">How It Works</h1>
-			<h1 class="text-xl font-semibold">Pricing</h1>
+			<Button variant="link"><span class="text-xl font-bold">Marketplace</span></Button>
+			<Button variant="link"><span class="text-xl font-bold">How It Works</span></Button>
+			<Button variant="link"><span class="text-xl font-bold">Pricing</span></Button>
 		</div>
-        <Button>Get Started</Button> 
+		<div>
+			<Button href="/login" variant="link"><b>Login</b></Button>
+			<Button href="/register">Get Started</Button>
+		</div>
 	</div>
 </nav>
